@@ -1,8 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc8503c6-304d-46f0-8587-fb16856ab2ec" name="默认更改列表" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="bc8503c6-304d-46f0-8587-fb16856ab2ec" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mnist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mnist.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2D_manifold.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2D_manifold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2D_manifold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph1 1.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph2.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph3.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/test.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/training.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/t10k-images-idx3-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/t10k-labels-idx1-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/train-images-idx3-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw/train-labels-idx1-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel_pca.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/nn_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pca.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reconstruction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/reconst-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/sampled-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vae_mnist_tensorflow/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vae_mnist_tensorflow/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vae_mnist_tensorflow/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vae_mnist_tensorflow/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vae_mnist_tensorflow/vae_mnist_tensorflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vae_mnist_torch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用[Cost]Cost3复制.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/使用[Cost]Cost4复制.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习研究报告.docx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,133 +90,8 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1456803682">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="29" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="3" />
-          <entry key="project.open.time.11" value="6" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="31" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="jpg" value="9" />
-          <entry key="py" value="43" />
-          <entry key="svg" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="9" />
-          <entry key="Python" value="43" />
-          <entry key="SVG" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="1390" />
-          <entry key="dummy" value="29" />
-          <entry key="py" value="13598" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="14988" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="mnist" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pre_func.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2850">
-              <caret line="194" column="40" selection-start-line="194" selection-start-column="40" selection-end-line="194" selection-end-column="40" />
-              <folding>
-                <element signature="e#21#30#0" expanded="true" />
-                <marker date="1543470337791" expanded="true" signature="3105:3356" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nn_func.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="153" column="90" selection-start-line="153" selection-start-column="90" selection-end-line="153" selection-end-column="90" />
-              <folding>
-                <element signature="e#20#51#0" expanded="true" />
-                <marker date="1543452536187" expanded="true" signature="652:657" ph="..." />
-                <marker date="1543452536187" expanded="true" signature="2068:2070" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/batch_nerual_network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-              <folding>
-                <element signature="e#44#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mini_batch_nerual_network.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#44#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="60" selection-end-line="73" selection-end-column="3" />
-              <folding>
-                <element signature="e#44#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vae_mnist_tensorflow/vae_mnist_tensorflow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3555">
-              <caret line="240" column="27" selection-start-line="240" selection-start-column="27" selection-end-line="240" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -175,6 +112,9 @@
     <replaceStrings>
       <replace>range</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -210,6 +150,7 @@
     <option name="width" value="1440" />
     <option name="height" value="826" />
   </component>
+  <component name="ProjectId" id="26d20J1KuyIjvUfKhkv0RCpxljY" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -227,6 +168,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -247,9 +189,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/ludegao/Desktop/mnist/input_train.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New 临时文件" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -259,19 +203,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.batch_nerual_network">
+  <component name="RunManager" selected="Python.mini_batch_nerual_network">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="mnist" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,9 +230,6 @@
       <module name="mnist" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -360,28 +289,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="input_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mnist" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vae_mnist_tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vae_mnist_tensorflow/input_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="input_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mnist" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -396,6 +303,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pre_func.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mini_batch_nerual_network" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mnist" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mini_batch_nerual_network.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,22 +354,23 @@
     </configuration>
     <list>
       <item itemvalue="Python.colormaps_reference" />
-      <item itemvalue="Python.input_data" />
       <item itemvalue="Python.input_train" />
       <item itemvalue="Python.homework" />
       <item itemvalue="Python.nn_func" />
       <item itemvalue="Python.batch_nerual_network" />
+      <item itemvalue="Python.mini_batch_nerual_network" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mini_batch_nerual_network" />
         <item itemvalue="Python.batch_nerual_network" />
         <item itemvalue="Python.input_train" />
         <item itemvalue="Python.homework" />
         <item itemvalue="Python.nn_func" />
-        <item itemvalue="Python.input_data" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -454,6 +381,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534775428306</updated>
+      <workItem from="1647738923649" duration="3048000" />
     </task>
     <servers />
   </component>
@@ -497,7 +425,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />

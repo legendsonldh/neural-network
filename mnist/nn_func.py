@@ -50,9 +50,10 @@ def diff(X,pattern):
     return differ
 
 ## 构建一个ReLU->ReLU->ReLU->Softmax的Forward Prop模型
-def Forwardpro(X,Y,n_layer,parameters):
+def Forwardpro(X,Y,n_layer,parameters) -> object:
     """
-    :param X_norm: 已经归一化之后的输入值
+    :param X: 已经归一化之后的输入值
+    :param Y: 目标值
     :param n_layer: 总网络层数
     :param parameters: 含有W和B矩阵的参数矩阵
     :return: 含有每一层的输入和输出矩阵：Z和A矩阵的cache矩阵
@@ -63,7 +64,11 @@ def Forwardpro(X,Y,n_layer,parameters):
     cache['A'+str(0)] = X.T
 
     for i in range(1,len(n_layer)):
-
+        """
+        正向传播公式为：
+            Z(i) = W(i)*A(i-1)+B(i)  其中A(0)=X.T
+            A(i) = Softmax or ReLU[Z(i)]
+        """
         cache['Z'+str(i)] = np.dot(parameters['W'+str(i)],cache['A'+str(i-1)])+parameters['b'+str(i)]
         ## 计算输出层的A与Z矩阵(Softmax)
         if i == len(n_layer)-1:
@@ -73,6 +78,9 @@ def Forwardpro(X,Y,n_layer,parameters):
             cache['A' + str(i)] = activation(cache['Z' + str(i)], 'ReLU')
 
     ## 计算损失函数
+    """
+        损失函数：COST = -1/m * sum(Y.T * A(last))
+    """
     y_ = cache['A'+str(len(n_layer)-1)]
     y  = Y.T
     m  = y.shape[1]
@@ -97,6 +105,10 @@ def Backward_pro(Y, n_layer, cache, parameters):
     grad = {}
     m = Y.shape[0]
     for l in range(len(n_layer) - 1, 0, -1):
+        """
+            DZ(LAST) = A(LAST)-Y.T          
+            DZ(i) = (W(i+1).T * DZ(i+1)) * diff(Z(i))
+        """
         # 最后一个，即Softmax的反向传播
         if l == len(n_layer) - 1:
             dZ = cache['A'+str(l)]-Y.T

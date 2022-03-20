@@ -7,9 +7,15 @@ import math
 from scipy.spatial.distance import pdist,cdist, squareform
 
 
-## 导入一下
+## 导入MNIST数据集
 
 def load_mnist(path, kind='train'):
+    """
+
+    :param path: 输入数据存放文件夹目录
+    :param kind: 输入读取的数据类型：train or test
+    :return: 返回一个字典dict：包含"images"和"labels"
+    """
     """Load MNIST data from `path`"""
     labels_path = os.path.join(path,
                                '%s-labels-idx1-ubyte'
@@ -32,9 +38,14 @@ def load_mnist(path, kind='train'):
              'labels':labels}
     return mnist
 
-## 独热编码
+## 独热编码：将0-9转换成类似向量[0,0,0,...,1]
 
 def one_hot_encoding(labels):
+    """
+
+    :param labels: 输入一列0-9范围内的向量数据
+    :return: 将向量数据扩充到一列x10的矩阵
+    """
     w = labels.shape[0]
     blank = np.zeros((w,10))
     for i in range(w):
@@ -45,6 +56,10 @@ def one_hot_encoding(labels):
 
 ## 导入数据并进行独热编码
 def input_data():
+    """
+    执行load_mnist和one_hot_encoding两个函数
+    :return: MNIST训练集和测试集
+    """
     mnist_train = load_mnist('MNIST_data', kind='train')
     print(mnist_train['images'].shape)
     mnist_test = load_mnist('MNIST_data', kind='t10k')
@@ -65,7 +80,7 @@ def init_parameters(X,Y,n_hiddenlayer,pattern):
     :param n_hiddenlayer: 隐藏层单元数矩阵
     :param pattern:   选取不同模式下的系数矩阵归一化方法
     :return :n_layer  各层单元数矩阵;
-            :parameter 权重矩阵，含有W与B
+            :parameter 权重矩阵，含有W与B 比如有三层，那么权重矩阵中只有W1,W2,W3;B1,B2,B3
     """
     n_layer = [X.shape[1]] + n_hiddenlayer + [Y.shape[1]]
 
